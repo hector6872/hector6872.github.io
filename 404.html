@@ -6,18 +6,18 @@
     <script>
       function redirect() {
         var location = window.location
-        var short = location.pathname.split('/').pop()
+        var short = location.pathname.split('/').pop().toLowerCase()
         switch (short) {
-          case 'LinaLauncher':
+          case 'lina':
             location.replace('https://play.google.com/store/apps/details?id=com.hector6872.lina');
             break
 
-            case 'Traction':
+          case 'traction':
             location.replace('https://play.google.com/store/apps/details?id=com.hector6872.habits');
             break
 
           default:
-          location.replace('https://hector6872.github.io')
+            location.replace('https://hector6872.github.io')
         }
       }
 
