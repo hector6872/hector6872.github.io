@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <title>Redirecting...</title>
+    <script>
+      function redirect() {
+        var location = window.location
+        var short = location.pathname.split('/').pop()
+        switch (short) {
+          case 'LinaLauncher':
+            location.replace('https://play.google.com/store/apps/details?id=com.hector6872.lina');
+            break
+
+            case 'Traction':
+            location.replace('https://play.google.com/store/apps/details?id=com.hector6872.habits');
+            break
+
+          default:
+          location.replace('https://hector6872.github.io')
+        }
+      }
+
+      redirect()
+    </script>
+  </head>
+  <body></body>
+</html>
