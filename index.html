@@ -13,7 +13,11 @@
   <body>
     <div class='container'>
       <header>
-        <img class='profile' alt='avatar' src='assets/avatar.gif'>
+        <picture>
+          <source srcset="assets/avatar.webp" type="image/webp">
+          <source srcset="assets/avatar.png" type="image/png">
+          <img class="profile" src="assets/avatar.png" alt="avatar">
+        </picture>
         <h1>Héctor de Isidro</h1>
         <p>Android Developer</p>
         👉 <a href='https://play.google.com/store/apps/dev?id=6594381561673827125' target='_blank' rel='noopener'>My Apps on Google Play Store</a>
