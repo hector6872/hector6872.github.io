@@ -178,9 +178,7 @@ a[widget="s"] .subtitle {
   padding: 16px;
 }
 
-.empty {
-  display: none;
-}
+.empty {}
 
 footer {
   margin: 64px;
@@ -216,9 +214,5 @@ footer {
     flex: 25%;
     padding: 16px;
     flex: 1
-  }
-
-  .empty {
-    /* display: none; */
   }
 }
