@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 body {
   font-family: "Inter", sans-serif;
@@ -12,8 +12,8 @@ html {
 }
 
 div.container {
-   width: 100%;
-   margin: 0 auto;
+  width: 100%;
+  margin: 0 auto;
 }
 
 header {
@@ -25,14 +25,14 @@ header :where(h1) {
 }
 
 header p {
-  color: #9E9E9E;
+  color: #9e9e9e;
 }
 
 header img.profile {
   width: 160px;
   height: 160px;
   border-radius: 50%;
-  border: 1px solid #E0E0E0;
+  border: 1px solid #e0e0e0;
 }
 
 section {
@@ -42,13 +42,13 @@ section {
 }
 
 section h1 {
-  font-size: 1.40rem;
+  font-size: 1.4rem;
   margin: 64px 32px 0px 32px;
   font-weight: 500;
 }
 
 a {
-  color: #9E9E9E;
+  color: #9e9e9e;
 }
 
 a[widget] :is(h1, h2, h3, h4, h5, h6) {
@@ -58,13 +58,13 @@ a[widget] :is(h1, h2, h3, h4, h5, h6) {
 a[widget] {
   text-decoration: none;
   color: #000000;
-  border: 1px solid #E0E0E0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, .04);
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
   transition: 0.1s;
 }
 
 a[widget]:hover {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   transform: scale(0.997);
 }
 
@@ -75,15 +75,15 @@ a[widget] .favicon {
   border-radius: 10px;
   width: 40px;
   height: 40px;
-  border: 1px solid #E0E0E0;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 a[widget] .url {
   display: block;
   font-size: 0.75em;
   margin-top: 2px;
-  color: #9E9E9E;
+  color: #9e9e9e;
 }
 
 a[widget="xl"] {
@@ -100,7 +100,7 @@ a[widget="xl"] .title {
 
 a[widget="xl"] .subtitle {
   display: block;
-  font-size: 0.90em;
+  font-size: 0.9em;
   color: #757575;
   min-height: 3lh;
 }
@@ -111,10 +111,10 @@ a[widget="xl"] .preview {
 
 a[widget="xl"] .preview img {
   border-radius: 10px;
-  border: 1px solid #E0E0E0;
+  border: 1px solid #e0e0e0;
   width: 100%;
   max-height: 280px;
-  object-fit: cover
+  object-fit: cover;
 }
 
 a[widget="l"] {
@@ -127,6 +127,13 @@ a[widget="l"] .title {
   display: block;
   margin-top: 8px;
   font-size: 1em;
+}
+
+a[widget="l"] .subtitle {
+  display: block;
+  font-size: 0.9em;
+  color: #757575;
+  min-height: 3lh;
 }
 
 a[widget="l"] .preview img {
@@ -153,7 +160,7 @@ a[widget="s"] .title {
 a[widget="s"] .subtitle {
   display: block;
   margin: 0;
-  font-size: 0.90em;
+  font-size: 0.9em;
   color: #757575;
 }
 
@@ -178,7 +185,8 @@ a[widget="s"] .subtitle {
   padding: 16px;
 }
 
-.empty {}
+.empty {
+}
 
 footer {
   margin: 64px;
@@ -206,13 +214,13 @@ footer {
   }
 
   .column {
-    flex: 1
+    flex: 1;
   }
 
   .tile {
     display: flex;
     flex: 25%;
     padding: 16px;
-    flex: 1
+    flex: 1;
   }
 }

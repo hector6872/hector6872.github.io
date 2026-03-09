@@ -1,47 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset='utf-8' />
+    <meta charset="utf-8" />
     <title>Redirecting...</title>
     <script>
       function redirect() {
-        var location = window.location
-        var short = location.pathname.split('/').pop().toLowerCase()
+        var location = window.location;
+        var short = location.pathname.split("/").pop().toLowerCase();
         switch (short) {
-          case 'lina':
-            location.replace('https://play.google.com/store/apps/details?id=com.hector6872.lina');
-            break
+          case "lina":
+            location.replace("https://play.google.com/store/apps/details?id=com.hector6872.lina");
+            break;
 
-          case 'traction':
-            location.replace('https://play.google.com/store/apps/details?id=com.hector6872.habits');
-            break
+          case "traction":
+            location.replace("https://play.google.com/store/apps/details?id=com.hector6872.habits");
+            break;
 
-          case 'tradertrainer':
-            location.replace('https://play.google.com/store/apps/details?id=com.hector6872.tradetrainer');
-            break
+          case "tradertrainer":
+            location.replace("https://play.google.com/store/apps/details?id=com.hector6872.tradetrainer");
+            break;
 
-          case 'if168':
-            location.replace('https://play.google.com/store/apps/details?id=com.hector6872.if168');
-            break
+          case "if168":
+            location.replace("https://play.google.com/store/apps/details?id=com.hector6872.if168");
+            break;
 
-          case 'capture':
-            location.replace('https://play.google.com/store/apps/details?id=com.hector6872.capture');
-            break
+          case "capture":
+            location.replace("https://play.google.com/store/apps/details?id=com.hector6872.capture");
+            break;
 
-          case 'apps':
-            location.replace('https://play.google.com/store/apps/dev?id=6594381561673827125');
-            break
+          case "shadowing":
+            location.replace("https://play.google.com/store/apps/details?id=com.hector6872.shadowing");
+            break;
 
-          case 'photos':
-            location.replace('https://www.flickr.com/photos/156334879@N04/');
-            break
+          case "apps":
+            location.replace("https://play.google.com/store/apps/dev?id=6594381561673827125");
+            break;
+
+          case "photos":
+            location.replace("https://www.flickr.com/photos/156334879@N04/");
+            break;
 
           default:
-            location.replace('https://hector6872.github.io')
+            location.replace("https://hector6872.github.io");
         }
       }
 
-      redirect()
+      redirect();
     </script>
   </head>
   <body></body>
